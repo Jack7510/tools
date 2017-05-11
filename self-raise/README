@@ -1,0 +1,6 @@
+cc -o self-raise self-raise.c
+cc -o hello hello.c
+./self-raise ./hello hello
+ps | grep hello
+kill app_pid
+
